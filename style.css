@@ -8,4 +8,24 @@ h1 {
 
 .kontejner {
   display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid rgb(80, 24, 24);
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-align: center;
+}
+ 
