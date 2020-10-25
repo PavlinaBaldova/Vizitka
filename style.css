@@ -41,16 +41,17 @@ body {
 
 .name {
   font-size: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   color: #8b6f47;
 }
 
 .lindkin {
-  width: 10%;
+  width: 12%;
+  margin-right: 40px;
 }
 
 .gitHub {
-  width: 10%;
+  width: 12%;
   filter: invert(100%);
 }
 
@@ -64,4 +65,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #8b6f47;
+  margin-top: 35px;
+  position: relative;
+}
+
+.story::after       {
+  content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 50px;
+	border-bottom: 1px solid #674d3c;
+}
+
+.story::before       {
+  content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	border-top: 1px solid #674d3c;
 }
